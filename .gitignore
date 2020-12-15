@@ -338,3 +338,9 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# My own setting
+#file
+clean_exe.bat
+#dir
+.vscode/
