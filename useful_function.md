@@ -30,16 +30,18 @@ int gcd(int a, int b)
 }
 ```
 
-## 3. witch函数
+## 3. switch函数
 - 此处根据grade来决定执行哪个分支语句
 - 每个语句中末尾必须加上break来退出switch语句，否则会从选择的那项语句一直往下执行，直至结束
 ```c++
 switch(grade)
    {
    case 'A' :
-      cout << "很棒！" << endl; 
+      cout << "GOOD JOB" << endl; 
       break;
    case 'B' :
+      cout << "很棒" << endl; 
+      break;
    case 'C' :
       cout << "做得好" << endl;
       break;
